@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="ReflectionIT.Mvc.Paging" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoEFCore.Common\DemoEFCore.Repository.csproj" />
+    <ProjectReference Include="..\DemoEFCore.Models\DemoEFCore.Models.csproj" />
+  </ItemGroup>
+
+</Project>
